@@ -46,6 +46,16 @@
 			<id>excilys-thirdparty</id>
 			<url>http://repository.excilys.com/content/repositories/thirdparty/</url>
 		</repository>
+                 <repository>
+      <id>opennms-repo</id>
+      <name>OpenNMS Maven Repository</name>
+      <url>http://repo.opennms.org/maven2</url>
+    </repository>
+    <repository>
+      <id>opennms-snapshots</id>
+      <name>OpenNMS Snapshot Maven Repository</name>
+      <url>http://repo.opennms.org/snapshots</url>
+    </repository>
 	</repositories>
 
 	<pluginRepositories>
@@ -53,6 +63,16 @@
 			<id>eviwarePluginRepository</id>
 			<url>http://www.eviware.com/repository/maven2/</url>
 		</pluginRepository>
+                <pluginRepository>
+      <id>opennms-repo</id>
+      <name>OpenNMS Maven Repository</name>
+      <url>http://repo.opennms.org/maven2</url>
+    </pluginRepository>
+    <pluginRepository>
+      <id>opennms-snapshots</id>
+      <name>OpenNMS Snapshot Maven Repository</name>
+      <url>http://repo.opennms.org/snapshots</url>
+    </pluginRepository>
 	</pluginRepositories>
 	<dependencyManagement>
 		<dependencies>
