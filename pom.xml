@@ -46,16 +46,16 @@
 			<id>excilys-thirdparty</id>
 			<url>http://repository.excilys.com/content/repositories/thirdparty/</url>
 		</repository>
-                 <repository>
-      <id>opennms-repo</id>
-      <name>OpenNMS Maven Repository</name>
-      <url>http://repo.opennms.org/maven2</url>
-    </repository>
-    <repository>
-      <id>opennms-snapshots</id>
-      <name>OpenNMS Snapshot Maven Repository</name>
-      <url>http://repo.opennms.org/snapshots</url>
-    </repository>
+                <repository>
+                        <id>opennms-repo</id>
+                        <name>OpenNMS Maven Repository</name>
+                        <url>http://repo.opennms.org/maven2</url>
+                </repository>
+                <repository>
+                        <id>opennms-snapshots</id>
+                        <name>OpenNMS Snapshot Maven Repository</name>
+                        <url>http://repo.opennms.org/snapshots</url>
+                </repository>
 	</repositories>
 
 	<pluginRepositories>
@@ -64,15 +64,15 @@
 			<url>http://www.eviware.com/repository/maven2/</url>
 		</pluginRepository>
                 <pluginRepository>
-      <id>opennms-repo</id>
-      <name>OpenNMS Maven Repository</name>
-      <url>http://repo.opennms.org/maven2</url>
-    </pluginRepository>
-    <pluginRepository>
-      <id>opennms-snapshots</id>
-      <name>OpenNMS Snapshot Maven Repository</name>
-      <url>http://repo.opennms.org/snapshots</url>
-    </pluginRepository>
+                        <id>opennms-repo</id>
+                        <name>OpenNMS Maven Repository</name>
+                        <url>http://repo.opennms.org/maven2</url>
+        </pluginRepository>
+        <pluginRepository>
+                        <id>opennms-snapshots</id>
+                        <name>OpenNMS Snapshot Maven Repository</name>
+                        <url>http://repo.opennms.org/snapshots</url>
+        </pluginRepository>
 	</pluginRepositories>
 	<dependencyManagement>
 		<dependencies>
@@ -364,18 +364,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
-		<repository>
-			<id>nexus-release</id>
-			<name>Nexus-Release</name>
-			<url>http://192.168.10.115:8080/nexus/content/repositories/releases/</url>
-			<layout>default</layout>
-		</repository>
-		<snapshotRepository>
-			<id>nexus-snapshot</id>
-			<name>Nexus-Snpashot</name>
-			<url>http://192.168.10.115:8080/nexus/content/repositories/snapshots/</url>
-			<layout>default</layout>
-		</snapshotRepository>
-	</distributionManagement>
+
 </project>
