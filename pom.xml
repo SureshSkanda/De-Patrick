@@ -26,7 +26,7 @@
 		<javassist.version>3.12.1.GA</javassist.version>
 		<slf4j.version>1.6.1</slf4j.version>
 		<logback.version>0.9.28</logback.version>
-		<tomcat-jdbc.version>1.1.0.1</tomcat-jdbc.version>
+		<tomcat-jdbc.version>8.5.9</tomcat-jdbc.version>
 		<tomcat-slf4j.version>1.0.0</tomcat-slf4j.version>
 		<selenium.version>1.0.1</selenium.version>
 		<tiles.version>2.2.2</tiles.version>
