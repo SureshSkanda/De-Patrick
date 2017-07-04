@@ -42,13 +42,30 @@
 	</properties>
 	
 	<repositories>
-		<repository>
-			<id>excilys-thirdparty</id>
-			<url>http://repository.excilys.com/content/repositories/thirdparty/</url>
-		</repository>
+		 <repository>
+                    <id>central</id>
+                    <name>Central Repository</name>
+                    <url>http://repo.maven.apache.org/maven2</url>
+                    <layout>default</layout>
+            <snapshots>
+                    <enabled>false</enabled>
+            </snapshots>
+    </repository>
 	</repositories>
 
 	<pluginRepositories>
+            <pluginRepository>
+                    <id>central</id>
+                    <name>Central Repository</name>
+                    <url>http://repo.maven.apache.org/maven2</url>
+                    <layout>default</layout>
+            <snapshots>
+                    <enabled>false</enabled>
+            </snapshots>
+             <releases>
+                    <updatePolicy>never</updatePolicy>
+            </releases>
+    </pluginRepository>
 		<pluginRepository>
 			<id>eviwarePluginRepository</id>
 			<url>http://www.eviware.com/repository/maven2/</url>
@@ -344,18 +361,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
-		<repository>
-			<id>nexus-release</id>
-			<name>Nexus-Release</name>
-			<url>http://192.168.10.115:8080/nexus/content/repositories/releases/</url>
-			<layout>default</layout>
-		</repository>
-		<snapshotRepository>
-			<id>nexus-snapshot</id>
-			<name>Nexus-Snpashot</name>
-			<url>http://192.168.10.115:8080/nexus/content/repositories/snapshots/</url>
-			<layout>default</layout>
-		</snapshotRepository>
-	</distributionManagement>
 </project>
